@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>说明</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/说明/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/说明/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (形状) -->
+      <div id="u0" class="ax_文本段落">
+        <img id="u0_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1" class="text">
+          <p><span>一、跑马灯或弹框通知</span><span></span></p><p><span>&nbsp;</span></p><p><span>接收业务参数包括：通知标题、通知文字、时间区间、重复次数（每天）、持续时间（每次）、显示类型（跑马灯、弹框）、叫停</span><span></span></p><p><span>&nbsp;</span></p><p><span>&nbsp;</span></p><p><span>二、客户端逻辑</span><span></span></p><p><span>&nbsp;</span></p><p><span>在单位时间天内，客户端</span><span>2</span><span>小时轮询，或通过接手推送。收到后台配置的通知信息；</span><span></span></p><p><span>&nbsp;</span></p><p><span>当用户有任何按键时，弹出跑马灯或弹出框展现给用户；</span><span></span></p><p><span>&nbsp;</span></p><p><span>如重复次数（天）大于</span><span>1</span><span>，显示过一次跑马灯或弹出框，</span><span>1</span><span>小时后，完成再次此逻辑，今天剩余显示次数－</span><span>1</span></p><p><span>&nbsp;</span></p><p><span>如果当天没有显示完，过</span><span>00:00</span><span>点会清楚本天的通知。接收第二天的</span><span></span></p><p><span>&nbsp;</span></p><p><span>通知有叫停参数，如果用户当日内，还有通知次数待显示，收到待叫停参数的可以不再显示。</span><span></span></p><p><span>&nbsp;</span></p><p><span>&nbsp;</span></p><p><span>三、场景举例</span><span></span></p><p><span>&nbsp;</span></p><p><span>1.</span><span>在后台配置了一个通知</span><span></span></p><p><span>&nbsp;</span></p><p><span>通知</span><span>ID</span><span>：</span><span>1001</span></p><p><span>&nbsp;</span></p><p><span>通知标题：温馨续费提醒</span><span></span></p><p><span>&nbsp;</span></p><p><span>通知内容：您的设备使用期限即将在</span><span>2017/8/1</span><span>日截止，请您到附近的营业厅续费，或致电</span><span>1234567</span><span>咨询</span><span></span></p><p><span>&nbsp;</span></p><p><span>时间区间：</span><span>2016</span><span>年</span><span>12</span><span>月</span><span>12</span><span>日至</span><span>2016</span><span>年</span><span>12</span><span>月</span><span>15</span><span>日</span><span></span></p><p><span>&nbsp;</span></p><p><span>重复次数：</span><span>5</span><span>次每天</span><span></span></p><p><span>&nbsp;</span></p><p><span>持续时间：</span><span>30</span><span>秒（跑马灯有效，弹出框无效）</span><span></span></p><p><span>&nbsp;</span></p><p><span>显示类型：跑马灯</span><span></span></p><p><span>&nbsp;</span></p><p><span>&nbsp;</span></p><p><span>2.</span><span>客户端（轮询规则）</span><span></span></p><p><span>&nbsp;</span></p><p><span>1.</span><span>用户在</span><span>12</span><span>月</span><span>12</span><span>日</span><span>9:00</span><span>开机联网后，根据</span><span>MAC</span><span>、</span><span>SN</span><span>，获取到通知</span><span>1001</span><span>；</span><span></span></p><p><span>&nbsp;</span></p><p><span>2.</span><span>开机</span><span>1</span><span>分钟后，用户按了任意按键，屏幕显示文字跑马灯，持续</span><span>30</span><span>秒，剩余</span><span>4</span><span>次；</span><span></span></p><p><span>&nbsp;</span></p><p><span>3.</span><span>用户继续使用，到</span><span>9:59</span><span>，用户点击按键，不会有通知弹出；</span><span></span></p><p><span>&nbsp;</span></p><p><span>4.10:01</span><span>分以后，如：</span><span>10:10</span><span>，用户再次点击按键，显示跑马灯，持续</span><span>30</span><span>秒，剩余</span><span>3</span><span>次；</span><span></span></p><p><span>&nbsp;</span></p><p><span>5.</span><span>之后用户关机了；</span><span></span></p><p><span>&nbsp;</span></p><p><span>6.12</span><span>月</span><span>12</span><span>日晚上</span><span>23:00</span><span>用户再次开机，开机约</span><span>1</span><span>分钟后，</span><span>23:01</span><span>，用户点击案件，（由于距上次显示超过</span><span>1</span><span>小时），显示跑马灯，剩余</span><span>2</span><span>次；</span><span></span></p><p><span>&nbsp;</span></p><p><span>7.</span><span>用户继续使用，到了</span><span>12</span><span>月</span><span>13</span><span>日</span><span>00:00</span><span>，剩余次数清零；</span><span></span></p><p><span>&nbsp;</span></p><p><span>8.13</span><span>日</span><span>00:00</span><span>之后，轮询获取到通知</span><span>1001</span><span>（仍在</span><span>12</span><span>日－</span><span>15</span><span>日之间）</span><span>,</span><span>剩余次数</span><span>5</span><span>次；</span><span></span></p><p><span>&nbsp;</span></p><p><span>9.</span><span>用户按任意键，显示跑马灯通知，剩余次数</span><span>4</span><span>次；</span><span></span></p><p><span>&nbsp;</span></p><p><span>10.</span><span>后台通知改为叫停（针对该用户</span><span>MACSN</span><span>）；</span><span></span></p><p><span>&nbsp;</span></p><p><span>11.13</span><span>日</span><span>02</span><span>：</span><span>00</span><span>获取到叫停，通知状态设为叫停，本日内不再会显示通知</span><span>1001</span><span>；</span><span></span></p><p><span>&nbsp;</span></p><p><span>12.14</span><span>日</span><span>00:00</span><span>后，客户端再次轮询，由于后台该用户的</span><span>MAC</span><span>、</span><span>SN</span><span>已经无效</span><span>,</span><span>不在会获取到通知</span><span>1001</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

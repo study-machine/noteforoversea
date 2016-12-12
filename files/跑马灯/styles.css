@@ -3255,3 +3255,25 @@
   visibility:hidden;
   word-wrap:break-word;
 }
+#u238 {
+  position:absolute;
+  left:40px;
+  top:670px;
+  width:660px;
+  height:68px;
+  font-size:16px;
+}
+#u238_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:660px;
+  height:68px;
+}
+#u239 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:660px;
+  word-wrap:break-word;
+}
